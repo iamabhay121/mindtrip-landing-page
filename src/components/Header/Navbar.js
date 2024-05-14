@@ -1,43 +1,130 @@
 import React from "react";
 import { BiMenuAltLeft } from "react-icons/bi";
 import { IoSparklesSharp } from "react-icons/io5";
+import { dataHelper } from "../../data-helper";
+import { Box } from "@chakra-ui/react";
 
 const Navbar = () => {
   return (
     <div className="fixed inset-x-0 flex h-16 items-center px-4">
       <div className="basis-1/2 items-center gap-2.5 md:flex">
-        <button className="border border-transparent rounded-full font-semibold p-2  bg-transparent hover:bg-slate-200 text-sm">
-          <BiMenuAltLeft className="size-8" />
+        <button className="border border-transparent rounded-full font-light p-2  bg-transparent hover:bg-slate-200 text-sm">
+          <BiMenuAltLeft className="size-6" />
         </button>
-        <div className="">
-          <button className="border border-transparent rounded-full font-semibold p-2  bg-transparent hover:bg-slate-200 text-sm">
-            Creator Program
-          </button>
-        </div>
-        <div className="">
-          <button className="border border-transparent rounded-full font-semibold p-2  bg-transparent hover:bg-slate-200 text-sm">
-            Start Exploring
-          </button>
-        </div>
+        <Box
+          as="button"
+          height="30px"
+          lineHeight="1.2"
+          transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
+          border="none"
+          px="8px"
+          borderRadius="20px"
+          fontSize="14px"
+          fontWeight="semibold"
+          bg="transparent"
+          borderColor="#ccd0d5"
+          color="#000000"
+          _hover={{ bg: "#ebedf0" }}
+          // _active={{
+          //   bg: "#dddfe2",
+          //   transform: "scale(0.98)",
+          //   borderColor: "#bec3c9",
+          // }}
+          // _focus={{
+          //   boxShadow:
+          //     "0 0 1px 2px rgba(88, 144, 255, .75), 0 1px 1px rgba(0, 0, 0, .15)",
+          // }}
+        >
+          {dataHelper().creator_program}
+        </Box>
+        <Box
+          as="button"
+          height="30px"
+          lineHeight="1.2"
+          transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
+          border="none"
+          px="8px"
+          borderRadius="20px"
+          fontSize="14px"
+          fontWeight="semibold"
+          bg="transparent"
+          borderColor="#ccd0d5"
+          color="#000000"
+          _hover={{ bg: "#ebedf0" }}
+          // _active={{
+          //   bg: "#dddfe2",
+          //   transform: "scale(0.98)",
+          //   borderColor: "#bec3c9",
+          // }}
+          // _focus={{
+          //   boxShadow:
+          //     "0 0 1px 2px rgba(88, 144, 255, .75), 0 1px 1px rgba(0, 0, 0, .15)",
+          // }}
+        >
+          {dataHelper().start_exploring}
+        </Box>
       </div>
       <div className="flex items-center font-semibold  ">
         <IoSparklesSharp className="gap-[.5rem] text-3xl" />
-        <p className="text-2xl">mindtrip.</p>
+        <p className="text-2xl">{dataHelper().mindtrip_smallCase}</p>
+        <span className="text-2xl">.</span>
         <span className="text-xs font-extralight px-1 h-4 rounded  bg-black text-white">
-          BETA
+          {dataHelper().beta}
         </span>
       </div>
       <div className="ml-auto mr-[calc(var(--button-sm-px)*-1)] flex basis-1/2 justify-end gap-5 sm:mr-0">
-        <div className="">
-          <button className="border border-transparent rounded-full font-semibold p-2  bg-transparent hover:bg-slate-200 text-sm">
-            Sign in
-          </button>
-        </div>
-        <div className="">
-          <button className="border border-black rounded-full font-semibold p-2  bg-transparent hover:bg-slate-200 text-sm">
-            Get Started
-          </button>
-        </div>
+        <Box
+          as="button"
+          height="30px"
+          lineHeight="1.2"
+          transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
+          border="none"
+          px="8px"
+          borderRadius="20px"
+          fontSize="14px"
+          fontWeight="semibold"
+          bg="transparent"
+          borderColor="#ccd0d5"
+          color="#000000"
+          _hover={{ bg: "#ebedf0" }}
+          // _active={{
+          //   bg: "#dddfe2",
+          //   transform: "scale(0.98)",
+          //   borderColor: "#bec3c9",
+          // }}
+          // _focus={{
+          //   boxShadow:
+          //     "0 0 1px 2px rgba(88, 144, 255, .75), 0 1px 1px rgba(0, 0, 0, .15)",
+          // }}
+        >
+          {dataHelper().sign_in}
+        </Box>
+
+        <Box
+          as="button"
+          height="30px"
+          lineHeight="1.2"
+          transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
+          border="1px solid"
+          px="8px"
+          borderRadius="20px"
+          fontSize="14px"
+          fontWeight="semibold"
+          bg="transparent"
+          borderColor="#000000"
+          color="#000000"
+          // _active={{
+          //   bg: "#dddfe2",
+          //   transform: "scale(0.98)",
+          //   borderColor: "#bec3c9",
+          // }}
+          // _focus={{
+          //   boxShadow:
+          //     "0 0 1px 2px rgba(88, 144, 255, .75), 0 1px 1px rgba(0, 0, 0, .15)",
+          // }}
+        >
+          {dataHelper().get_started}
+        </Box>
       </div>
     </div>
   );
