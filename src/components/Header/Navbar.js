@@ -4,7 +4,7 @@ import { IoSparklesSharp } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <div className="fixed inset-x-0 flex h-16 items-center px-8">
+    <div className="fixed inset-x-0 flex h-16 items-center px-4">
       <div className="basis-1/2 items-center gap-2.5 md:flex">
         <button className="border border-transparent rounded-full font-semibold p-2  bg-transparent hover:bg-slate-200 text-sm">
           <BiMenuAltLeft className="size-8" />
