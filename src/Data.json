@@ -4,5 +4,27 @@
   "mindtrip_smallCase": "mindtrip",
   "beta": "BETA",
   "sign_in": "Sign in",
-  "get_started": "Get started"
+  "get_started": "Get started",
+  "ai_powered_travel": "AI-powered travel,",
+  "personalized_to_you": "Personalized to you",
+  "personalize_card_data": [
+    {
+      "id": 1,
+      "imagePath": "/static/media/personalized-1.ce3e42531b7286571341.jpeg",
+      "title": "Personalized",
+      "description": "Ask us anything travel-related. We gather content from thousands of sources and, based on your unique preferences, we’ll curate experiences that will inspire and excite you."
+    },
+    {
+      "id": 2,
+      "imagePath": "/static/media/personalized-1.ce3e42531b7286571341.jpeg",
+      "title": "Actionable",
+      "description": "In seconds, we provide you with interactive and customizable itineraries that include everything you need for an adventure across the world or in your own backyard."
+    },
+    {
+      "id": 3,
+      "imagePath": "/static/media/personalized-1.ce3e42531b7286571341.jpeg",
+      "title": "All in one place",
+      "description": "Only Mindtrip makes it easy for you to keep track of all of your reservations — transportation, hotels, restaurants and activities — all in one place."
+    }
+  ]
 }

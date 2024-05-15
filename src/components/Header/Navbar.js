@@ -24,7 +24,7 @@ const Navbar = () => {
           bg="transparent"
           borderColor="#ccd0d5"
           color="#000000"
-          _hover={{ bg: "#ebedf0" }}
+          _hover={{ bg: "#808080" }}
           // _active={{
           //   bg: "#dddfe2",
           //   transform: "scale(0.98)",
@@ -50,7 +50,7 @@ const Navbar = () => {
           bg="transparent"
           borderColor="#ccd0d5"
           color="#000000"
-          _hover={{ bg: "#ebedf0" }}
+          _hover={{ bg: "#808080" }}
           // _active={{
           //   bg: "#dddfe2",
           //   transform: "scale(0.98)",
@@ -64,7 +64,7 @@ const Navbar = () => {
           {dataHelper().start_exploring}
         </Box>
       </div>
-      <div className="flex items-center font-semibold  ">
+      <div className="flex items-center font-semibold hover:cursor-pointer hover:opacity-65">
         <IoSparklesSharp className="gap-[.5rem] text-3xl" />
         <p className="text-2xl">{dataHelper().mindtrip_smallCase}</p>
         <span className="text-2xl">.</span>
@@ -72,7 +72,7 @@ const Navbar = () => {
           {dataHelper().beta}
         </span>
       </div>
-      <div className="ml-auto mr-[calc(var(--button-sm-px)*-1)] flex basis-1/2 justify-end gap-5 sm:mr-0">
+      <div className=" flex basis-1/2 justify-end gap-5">
         <Box
           as="button"
           height="30px"
@@ -86,7 +86,7 @@ const Navbar = () => {
           bg="transparent"
           borderColor="#ccd0d5"
           color="#000000"
-          _hover={{ bg: "#ebedf0" }}
+          _hover={{ bg: "#808080" }}
           // _active={{
           //   bg: "#dddfe2",
           //   transform: "scale(0.98)",
