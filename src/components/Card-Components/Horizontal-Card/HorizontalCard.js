@@ -1,5 +1,6 @@
 import React from "react";
 import { getImgPath } from "../../../data-helper";
+import img1 from "../../../assets/personalized-images/personalized-1.jpeg";
 
 const HorizontalCard = ({ data }) => {
   return (
@@ -11,9 +12,11 @@ const HorizontalCard = ({ data }) => {
         >
           <div className="-mx-container lg:mr-0">
             <img
-              src={getImgPath(item.imagePath)}
+              src={img1}
               alt={`personalized-${item.id}`}
               loading="lazy"
+              className="mx-auto"
+              style={{ color: "transparent" }}
             />
           </div>
           {item.id % 2 ? (

@@ -3,12 +3,13 @@ import { BiMenuAltLeft } from "react-icons/bi";
 import { IoSparklesSharp } from "react-icons/io5";
 import { dataHelper } from "../../data-helper";
 import { Box } from "@chakra-ui/react";
+import "./navbar.css";
 
 const Navbar = () => {
   return (
     <div className="fixed inset-x-0 z-10 flex h-16 items-center px-4 duration-500 bg-background/80 backdrop-blur-md">
       <div className="basis-1/2 items-center gap-2.5 md:flex">
-        <button className="border border-transparent rounded-full font-light p-2  bg-transparent hover:bg-slate-200 text-sm">
+        <button className="border border-transparent rounded-full font-light p-2  bg-transparent blackA1 text-sm">
           <BiMenuAltLeft className="size-6" />
         </button>
         <Box
@@ -24,7 +25,7 @@ const Navbar = () => {
           bg="transparent"
           borderColor="#ccd0d5"
           color="#000000"
-          _hover={{ bg: "#808080" }}
+          _hover={{ bg: "rgba(0,0,0,.05)" }}
           // _active={{
           //   bg: "#dddfe2",
           //   transform: "scale(0.98)",
@@ -50,7 +51,7 @@ const Navbar = () => {
           bg="transparent"
           borderColor="#ccd0d5"
           color="#000000"
-          _hover={{ bg: "#808080" }}
+          _hover={{ bg: "rgba(0,0,0,.05)" }}
           // _active={{
           //   bg: "#dddfe2",
           //   transform: "scale(0.98)",
@@ -86,7 +87,7 @@ const Navbar = () => {
           bg="transparent"
           borderColor="#ccd0d5"
           color="#000000"
-          _hover={{ bg: "#808080" }}
+          _hover={{ bg: "rgba(0,0,0,.05)" }}
           // _active={{
           //   bg: "#dddfe2",
           //   transform: "scale(0.98)",

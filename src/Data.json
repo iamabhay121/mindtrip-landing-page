@@ -154,5 +154,8 @@
       "description": "A Vibrant 3-Days in Toronto",
       "location": "Toronto, Ontario, Canada"
     }
-  ]
+  ],
+  "kind_of": "What kind of traveler are you?",
+  "kind_of_description": "Take our quick travel quiz. We’ll reveal your travel style and use your personal preferences to provide you with recommendations you’ll love.",
+  "take_our_quiz": "Take our quiz"
 }
