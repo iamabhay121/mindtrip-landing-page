@@ -157,5 +157,28 @@
   ],
   "kind_of": "What kind of traveler are you?",
   "kind_of_description": "Take our quick travel quiz. We’ll reveal your travel style and use your personal preferences to provide you with recommendations you’ll love.",
-  "take_our_quiz": "Take our quiz"
+  "take_our_quiz": "Take our quiz",
+  "partner_title": "Partner with Mindtrip.",
+  "partner_description": "Want to help bring the world to travelers through cutting-edge technology or robust content?",
+  "featured_title": " As featured in …",
+  "featured_card_data": [
+    {
+      "description": "Mindtrip’s AI travel assistant aims to be your one-stop shop for trip planning"
+    },
+    {
+      "description": "Mindtrip wants to become your AI travel agent"
+    },
+    {
+      "description": "Mindtrip Raises $7 Million"
+    },
+    {
+      "description": "Generative AI trip planning startup MindTrip raises $7M"
+    },
+    {
+      "description": "Outlook Forum 2024 Highlights"
+    },
+    {
+      "description": "Best ai travel planning tool I’ve tried so far"
+    }
+  ]
 }

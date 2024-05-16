@@ -5,7 +5,9 @@ import Navbar from "./components/Header/Navbar";
 import OrganizeSection from "./components/Organize-Section/OrganizeSection";
 import PersonalizeSection from "./components/Personalize-Section/Personalize-Section";
 import Exploring from "./components/exploring/Exploring";
+import Featured from "./components/featured/Featured";
 import KindOf from "./components/kind-of-traveler/KindOf";
+import Partner from "./components/partner/Partner";
 import Social from "./components/social/Social";
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
       <Exploring />
       <KindOf />
       <Social />
+      <Partner />
+      <Featured />
     </div>
   );
 }
