@@ -4,6 +4,7 @@ import bgImg from "../../assets/banner-images/banner.jpeg";
 import london from "../../assets/banner-images/London.png";
 import paris from "../../assets/banner-images/Paris.png";
 import rome from "../../assets/banner-images/Rome.png";
+import BannerText from "./BannerText";
 
 const Banner = () => {
   return (
@@ -32,6 +33,9 @@ const Banner = () => {
           alt="colosium"
           className="w-56 absolute bottom-[9%] right-[8vh] animate-float3"
         ></img>
+      </div>
+      <div className="absolute top-[150px] left-[60px]">
+        <BannerText />
       </div>
     </div>
   );

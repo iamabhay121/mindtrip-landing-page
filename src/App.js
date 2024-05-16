@@ -4,6 +4,7 @@ import Banner from "./components/Banner/Banner";
 import Navbar from "./components/Header/Navbar";
 import OrganizeSection from "./components/Organize-Section/OrganizeSection";
 import PersonalizeSection from "./components/Personalize-Section/Personalize-Section";
+import Exploring from "./components/exploring/Exploring";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <PersonalizeSection />
       {/* <EverythingSection /> */}
       <OrganizeSection />
+      <Exploring />
     </div>
   );
 }

@@ -5,12 +5,17 @@
   "beta": "BETA",
   "sign_in": "Sign in",
   "get_started": "Get started",
+  "travel": "Travel",
+  "mindtrip_description": "Mindtrip brings the world to you and empowers you to experience it",
+  "your": "your",
+  "way": "way.",
+  "play_video": "Play video",
   "ai_powered_travel": "AI-powered travel,",
   "personalized_to_you": "Personalized to you",
   "personalize_card_data": [
     {
       "id": 1,
-      "imagePath": "/static/media/personalized-1.ce3e42531b7286571341.jpeg",
+      "imagePath": "personalized-1.jpeg",
       "title": "Personalized",
       "description": "Ask us anything travel-related. We gather content from thousands of sources and, based on your unique preferences, we’ll curate experiences that will inspire and excite you."
     },
@@ -32,7 +37,7 @@
   "everything_card_data": [
     {
       "id": 1,
-      "imagePath": "personalized-1",
+      "imagePath": "personalized-1.jpeg",
       "title": "Photos, maps + reviews",
       "description": "Don’t just read about a place; experience it. With vibrant photos, interactive maps and reviews, you’ll feel like you’re already there."
     },
@@ -65,7 +70,7 @@
     {
       "id": 2,
       "title": "Car Rental",
-      "comming_soon": "comming soon",
+      "comming_soon": "Comming soon",
       "description": "Unlock deals on any type of wheels and hit the road."
     },
     {
@@ -86,8 +91,68 @@
     {
       "id": 6,
       "title": "Tours",
-      "comming_soon": "comming soon",
+      "comming_soon": "Comming soon",
       "description": "Get an insider’s perspective on any location or attraction."
+    }
+  ],
+  "start_exploring": "Start Exploring",
+  "explore_description": "Explore popular destinations and start planning your Mindtrip.",
+  "explore_card_data": [
+    {
+      "id": 1,
+      "imgPath": "",
+      "days": "8 days",
+      "description": "Paris: A Locals Guide",
+      "location": "Rome, France"
+    },
+    {
+      "id": 2,
+      "imgPath": "",
+      "days": "4 days",
+      "description": "4-Days of Authencity and Culture in Rome",
+      "location": "Rome, Italy"
+    },
+    {
+      "id": 3,
+      "imgPath": "",
+      "days": "5 days",
+      "description": "Foodie’s Delight: 5 San Francisco Neighborhoods in 5 Days",
+      "location": "San Francisco, California"
+    },
+    {
+      "id": 4,
+      "imgPath": "",
+      "days": "3 days",
+      "description": "A Harbour-side Adventure Down Under",
+      "location": "Sydney, Australia"
+    },
+    {
+      "id": 5,
+      "imgPath": "",
+      "days": "4 days",
+      "description": "A NYC Classic",
+      "location": "New York City, New York"
+    },
+    {
+      "id": 6,
+      "imgPath": "",
+      "days": "5 days",
+      "description": "Urban Adventure in Tokyo",
+      "location": "Tokyo, Japan"
+    },
+    {
+      "id": 7,
+      "imgPath": "",
+      "days": "3 days",
+      "description": "Luxury Stay at Nizuc Resort & Spa",
+      "location": "Cancun, Mexico"
+    },
+    {
+      "id": 8,
+      "imgPath": "",
+      "days": "3 days",
+      "description": "A Vibrant 3-Days in Toronto",
+      "location": "Toronto, Ontario, Canada"
     }
   ]
 }

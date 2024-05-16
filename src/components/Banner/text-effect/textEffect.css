@@ -1,0 +1,21 @@
+.cursor {
+  background: lime;
+  line-height: 17px;
+  margin-left: 3px;
+  animation: blink 0.8s infinite;
+  width: 7px;
+  height: 15px;
+  display: inline-block;
+}
+
+@keyframes blink {
+  0% {
+    background: #222;
+  }
+  50% {
+    background: lime;
+  }
+  100% {
+    background: #222;
+  }
+}

@@ -4,6 +4,7 @@ export function dataHelper() {
   return Data;
 }
 
-export function getImgPath() {
-  // static media
+export function getImgPath(imgPath) {
+  console.log("imgPath", imgPath);
+  return process.env.PUBLIC_URL + imgPath;
 }
