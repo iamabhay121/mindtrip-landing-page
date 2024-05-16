@@ -5,9 +5,9 @@ import HorizontalCard from "../Card-Components/Horizontal-Card/HorizontalCard";
 
 const PersonalizeSection = () => {
   const cardData = dataHelper().personalize_card_data;
-  console.log(cardData);
+
   return (
-    <div>
+    <div className="mb-[5rem]">
       <div className=" flex mt-[8rem] ">
         <div className=" flex flex-col mx-auto">
           <IoSparklesSharp size={60} className="m-auto" />
@@ -18,7 +18,6 @@ const PersonalizeSection = () => {
           </h2>
         </div>
       </div>
-
       <HorizontalCard data={cardData} />
     </div>
   );

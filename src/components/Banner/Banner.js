@@ -7,8 +7,8 @@ import rome from "../../assets/banner-images/Rome.png";
 
 const Banner = () => {
   return (
-    <div className="flex flex-1 flex-col ">
-      <div className=" ">
+    <div className=" flex flex-1 flex-col ">
+      <div className="relative z-0 ">
         <div className=" inset-0 ">
           <img
             src={bgImg}

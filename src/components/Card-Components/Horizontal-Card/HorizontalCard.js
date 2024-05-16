@@ -1,17 +1,17 @@
 import React from "react";
-import PropTypes from "prop-types";
+import { getImgPath } from "../../../data-helper";
 
 const HorizontalCard = ({ data }) => {
   return (
-    <div>
+    <div className="flex flex-col items-center ">
       {data.map((item) => (
         <div
           key={item.id}
-          className="grid items-center gap-8 text-pretty sm:gap-24 lg:grid-cols-2 mt-[10rem]"
+          className="grid items-center gap-8 text-pretty sm:gap-24 lg:grid-cols-2 mt-[10rem] w-11/12 bg-white "
         >
           <div className="-mx-container lg:mr-0">
             <img
-              src={item.imagePath}
+              src={getImgPath(item.imagePath)}
               alt={`personalized-${item.id}`}
               loading="lazy"
             />
@@ -35,17 +35,6 @@ const HorizontalCard = ({ data }) => {
       ))}
     </div>
   );
-};
-
-HorizontalCard.propTypes = {
-  data: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      imagePath: PropTypes.string.isRequired,
-      title: PropTypes.string.isRequired,
-      description: PropTypes.string.isRequired,
-    })
-  ).isRequired,
 };
 
 export default HorizontalCard;

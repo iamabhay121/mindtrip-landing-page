@@ -6,7 +6,7 @@ import { Box } from "@chakra-ui/react";
 
 const Navbar = () => {
   return (
-    <div className="fixed inset-x-0 flex h-16 items-center px-4">
+    <div className="fixed inset-x-0 z-10 flex h-16 items-center px-4 duration-500 bg-background/80 backdrop-blur-md">
       <div className="basis-1/2 items-center gap-2.5 md:flex">
         <button className="border border-transparent rounded-full font-light p-2  bg-transparent hover:bg-slate-200 text-sm">
           <BiMenuAltLeft className="size-6" />

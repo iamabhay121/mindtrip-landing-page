@@ -26,5 +26,68 @@
       "title": "All in one place",
       "description": "Only Mindtrip makes it easy for you to keep track of all of your reservations — transportation, hotels, restaurants and activities — all in one place."
     }
+  ],
+  "everything_you_need": "Everything you need",
+  "for_your_next_adventure": "for your next adventure",
+  "everything_card_data": [
+    {
+      "id": 1,
+      "imagePath": "personalized-1",
+      "title": "Photos, maps + reviews",
+      "description": "Don’t just read about a place; experience it. With vibrant photos, interactive maps and reviews, you’ll feel like you’re already there."
+    },
+    {
+      "id": 2,
+      "imagePath": "personalized-1.ce3e42531b7286571341.jpeg",
+      "title": "Tailored recommendations",
+      "description": "From the best restaurants in your town to the best beaches around the world, we’ve got you covered. Favorite the recommendations you like and add them to your trip plan."
+    },
+    {
+      "id": 3,
+      "imagePath": "/static/media/personalized-1.ce3e42531b7286571341.jpeg",
+      "title": "Customizable trip plans",
+      "description": "In seconds, we’ll curate customizable itineraries for anywhere you’d like to go. Include specifics in your requests so we can personalize your plans."
+    },
+    {
+      "id": 4,
+      "imagePath": "/static/media/personalized-1.ce3e42531b7286571341.jpeg",
+      "title": "Trip sharing",
+      "description": "Share your travel plans with friends and family. Publish your itineraries to help inspire other travelers."
+    }
+  ],
+  "organize_it_all_in_one_place": "Organize it all in one place.",
+  "organize_cards": [
+    {
+      "id": 1,
+      "title": "Hotels",
+      "description": "Stay at the best hotels around the world for the best prices."
+    },
+    {
+      "id": 2,
+      "title": "Car Rental",
+      "comming_soon": "comming soon",
+      "description": "Unlock deals on any type of wheels and hit the road."
+    },
+    {
+      "id": 3,
+      "title": "Flights",
+      "description": "Get real-time airfares for anywhere you want to jet off to."
+    },
+    {
+      "id": 4,
+      "title": "Restaurants",
+      "description": "Snag a coveted table at the hottest restaurants."
+    },
+    {
+      "id": 5,
+      "title": "Experiences",
+      "description": "Make reservations for your favorite activities, then make memories."
+    },
+    {
+      "id": 6,
+      "title": "Tours",
+      "comming_soon": "comming soon",
+      "description": "Get an insider’s perspective on any location or attraction."
+    }
   ]
 }
