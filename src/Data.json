@@ -15,19 +15,19 @@
   "personalize_card_data": [
     {
       "id": 1,
-      "imagePath": "personalized-1.jpeg",
+      "imagePath": "https://i.ibb.co/wJcwhdj/personalized-1.jpg",
       "title": "Personalized",
       "description": "Ask us anything travel-related. We gather content from thousands of sources and, based on your unique preferences, we’ll curate experiences that will inspire and excite you."
     },
     {
       "id": 2,
-      "imagePath": "/static/media/personalized-1.ce3e42531b7286571341.jpeg",
+      "imagePath": "https://i.ibb.co/9bZTK5W/personalized-2.jpg",
       "title": "Actionable",
       "description": "In seconds, we provide you with interactive and customizable itineraries that include everything you need for an adventure across the world or in your own backyard."
     },
     {
       "id": 3,
-      "imagePath": "/static/media/personalized-1.ce3e42531b7286571341.jpeg",
+      "imagePath": "https://i.ibb.co/qFkmMv0/personalized-3.jpg",
       "title": "All in one place",
       "description": "Only Mindtrip makes it easy for you to keep track of all of your reservations — transportation, hotels, restaurants and activities — all in one place."
     }
@@ -37,25 +37,25 @@
   "everything_card_data": [
     {
       "id": 1,
-      "imagePath": "personalized-1.jpeg",
+      "imagePath": "https://i.ibb.co/6H3SqrK/everything1.jpg",
       "title": "Photos, maps + reviews",
       "description": "Don’t just read about a place; experience it. With vibrant photos, interactive maps and reviews, you’ll feel like you’re already there."
     },
     {
       "id": 2,
-      "imagePath": "personalized-1.ce3e42531b7286571341.jpeg",
+      "imagePath": "https://i.ibb.co/NyvsDZ7/everything2.jpg",
       "title": "Tailored recommendations",
       "description": "From the best restaurants in your town to the best beaches around the world, we’ve got you covered. Favorite the recommendations you like and add them to your trip plan."
     },
     {
       "id": 3,
-      "imagePath": "/static/media/personalized-1.ce3e42531b7286571341.jpeg",
+      "imagePath": "https://i.ibb.co/tq3D69J/everything3.jpg",
       "title": "Customizable trip plans",
       "description": "In seconds, we’ll curate customizable itineraries for anywhere you’d like to go. Include specifics in your requests so we can personalize your plans."
     },
     {
       "id": 4,
-      "imagePath": "/static/media/personalized-1.ce3e42531b7286571341.jpeg",
+      "imagePath": "https://i.ibb.co/z7Z84wy/everything4.png",
       "title": "Trip sharing",
       "description": "Share your travel plans with friends and family. Publish your itineraries to help inspire other travelers."
     }
@@ -95,7 +95,7 @@
       "description": "Get an insider’s perspective on any location or attraction."
     }
   ],
-  "start_exploring": "Start Exploring",
+
   "explore_description": "Explore popular destinations and start planning your Mindtrip.",
   "explore_card_data": [
     {

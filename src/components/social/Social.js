@@ -5,7 +5,7 @@ import SocialCard from "../Card-Components/social-card/SocialCard";
 
 const Social = () => {
   return (
-    <div className="mx-auto w-full py-40 text-center lg:py-48">
+    <div className="mx-auto w-full  text-center py-20">
       <h2 className="mb-[1.5em] text-pretty text-5xl font-bold tracking-tight sm:text-6xl">
         Tag us on your next trip.
       </h2>

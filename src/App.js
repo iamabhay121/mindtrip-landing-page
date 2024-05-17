@@ -4,6 +4,7 @@ import Banner from "./components/Banner/Banner";
 import Navbar from "./components/Header/Navbar";
 import OrganizeSection from "./components/Organize-Section/OrganizeSection";
 import PersonalizeSection from "./components/Personalize-Section/Personalize-Section";
+import Create from "./components/create/Create";
 import Exploring from "./components/exploring/Exploring";
 import Featured from "./components/featured/Featured";
 import Footer from "./components/footer/Footer";
@@ -23,6 +24,7 @@ function App() {
       <OrganizeSection />
       <Exploring />
       <KindOf />
+      <Create />
       <Social />
       <Partner />
       <Featured />
