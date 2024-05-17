@@ -6,5 +6,5 @@ export function dataHelper() {
 
 export function getImgPath(imgPath) {
   console.log("imgPath", imgPath);
-  return process.env.PUBLIC_URL + imgPath;
+  return "/static/media/" + imgPath;
 }

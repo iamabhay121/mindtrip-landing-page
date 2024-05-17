@@ -24,7 +24,11 @@ const FeaturedCard = () => {
           className="flex flex-col items-center gap-9 transition-colors hover:text-black"
         >
           <div className="flex h-[4.375rem] flex-col justify-center">
-            <img src={item} alt="featured" width="99" height="50" />
+            {item.split(".").pop() === "svg" ? (
+              <img src={item} alt="featured" width="200" />
+            ) : (
+              <img src={item} alt="featured" width="140" />
+            )}
           </div>
           <p>{dataHelper().featured_card_data[index].description}</p>
         </div>

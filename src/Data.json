@@ -180,5 +180,11 @@
     {
       "description": "Best ai travel planning tool I’ve tried so far"
     }
-  ]
+  ],
+  "company": "Company",
+  "company_list": ["About", "Team", "Press", "Media Kit", "Contact", "Help"],
+  "creator_program_list": ["Become a Creator", "Take our travel quiz"],
+  "tnc": "© 2024 Mindtrip, Inc.",
+  "privacy_policy": " Privacy Policy",
+  "terms_of_service": " Terms of Service"
 }

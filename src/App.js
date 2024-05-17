@@ -6,9 +6,12 @@ import OrganizeSection from "./components/Organize-Section/OrganizeSection";
 import PersonalizeSection from "./components/Personalize-Section/Personalize-Section";
 import Exploring from "./components/exploring/Exploring";
 import Featured from "./components/featured/Featured";
+import Footer from "./components/footer/Footer";
 import KindOf from "./components/kind-of-traveler/KindOf";
+import OurAllies from "./components/our-allies/OurAllies";
 import Partner from "./components/partner/Partner";
 import Social from "./components/social/Social";
+import TnC from "./components/terms-and-conditions/TnC";
 
 function App() {
   return (
@@ -23,6 +26,9 @@ function App() {
       <Social />
       <Partner />
       <Featured />
+      <OurAllies />
+      <Footer />
+      <TnC />
     </div>
   );
 }
