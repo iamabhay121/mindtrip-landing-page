@@ -29,7 +29,10 @@ const ExploreCard = ({ data }) => {
       leading-tight *:shrink-0 *:basis-56 *:snap-start md:mx-auto md:flex-wrap md:justify-center"
       >
         {data.map((item, id) => (
-          <li className="transition-transform hover:-translate-y-1 m-3">
+          <li
+            key={id}
+            className="transition-transform hover:-translate-y-1 m-3"
+          >
             <div className="relative mb-4 aspect-[7/8] overflow-hidden rounded-2xl">
               <img
                 src={imagePath[id]}

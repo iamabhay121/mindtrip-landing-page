@@ -7,11 +7,11 @@ import scroll5 from "../../../assets/background-scroll/scroll-5.jpeg";
 import "./style.css";
 
 const images = [
-  { src: scroll1, left: "97px", className: "scroll-animation-3d-0" },
-  { src: scroll2, left: "224px", className: "scroll-animation-3d-1" },
-  { src: scroll3, left: "422px", className: "scroll-animation-3d-2" },
-  { src: scroll4, left: "15px", className: "scroll-animation-3d-3" },
-  { src: scroll5, left: "410px", className: "scroll-animation-3d-4" },
+  { src: scroll1, left: "0", className: "scroll-animation-3d-0" },
+  { src: scroll2, left: "200px", className: "scroll-animation-3d-0" },
+  { src: scroll3, left: "280px", className: "scroll-animation-3d-0" },
+  { src: scroll4, left: "330px", className: "scroll-animation-3d-0" },
+  { src: scroll5, left: "380px", className: "scroll-animation-3d-0" },
 ];
 
 const ScrollingImages = () => {
